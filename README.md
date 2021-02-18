@@ -1,5 +1,30 @@
-# Getting Started with Create React App
+# Redesign- Tesla
+Hello and welcome to our Telsa website redesign. 
+This website uses ReactJS, React DOM Router, and an API. 
 
+## Let's Get Started 
+Follow the steps below to get this project running locally.
+```
+# Clone repo
+  git clone
+
+# Go into folder
+  cd redesign-tesla
+
+# Install dependencies
+  npm install
+```
+## API Used
+
+## Contributors 
+-   **Kenneth** - [GitHub]()
+-   **Jensy** -  [GitHub]()
+-   **Ashley Woodton** -  [GitHub]()
+-   **Andrew N** -  [GitHub]()
+-   **Rochelly Reyes** - [GitHub](https://github.com/RochellyReyes)
+
+
+## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
