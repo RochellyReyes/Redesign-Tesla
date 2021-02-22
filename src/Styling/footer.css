@@ -1,12 +1,14 @@
 .footer {
-    background-color: green;
+    background-color: whitesmoke;
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: black;
+
 /* position may change content is added */
+
     position: absolute;
     bottom: 0;
     width: 100%;
