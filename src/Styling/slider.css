@@ -1,0 +1,36 @@
+.slider .slick-prev,
+.slider .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slider {
+  position: relative;
+  z-index: -50;
+}
+img {
+  height: 95vh;
+  width: 100%;
+  /* margin-left: 160px;
+  margin-right: 160px; */
+}
+
+.slider .slick-prev,
+.slider .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: none;
+}
+
+.slider .slick-prev {
+  left: 5%;
+  display: none;
+}
+
+.slider .slick-next {
+  right: 5%;
+  display: none;
+  opacity: 100%;
+}
