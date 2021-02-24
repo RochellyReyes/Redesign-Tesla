@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import '../../Styling/navbar.css';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import * as SiIcons from 'react-icons/si';
 import {SidebarData} from './SidebarData';
 import {IconContext} from 'react-icons';
 
