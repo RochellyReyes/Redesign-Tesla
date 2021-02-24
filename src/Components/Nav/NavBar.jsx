@@ -18,6 +18,9 @@ const NavBar = () => {
           <Link to="#" className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar}/>
           </Link>
+
+          <SiIcons.SiTesla className="tesla-logo"/>
+
         </div>
         <nav className={sidebar ? 'nav-menu active': 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
