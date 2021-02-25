@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../Components/Footer';
 import '../Styling/contact.css';
-import Tesla from '../../public/video/tesla.mp4';
+import Tesla from '../Component/video/tesla.mp4';
 const Contact = () => {
     return (
         <>
