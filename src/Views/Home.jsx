@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="wrapper">
                     <div className="box">
                         <h2>Vehicles</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eos omnis distinctio natus, ab rem, sit deleniti earum ut doloribus dolor. Commodi dolorum assumenda officiis voluptate facilis rem suscipit dolor.</p>
+                        <p>High performance, luxury vehicles with high tech interiors. Travel farther on a single charge than any other electric vehicle and keep going with access to 20,000+ Superchargers globally.</p>
                         <NavLink exact={true} to='/models'>See Our Cars</NavLink>
                     </div>
                     <div className="box">

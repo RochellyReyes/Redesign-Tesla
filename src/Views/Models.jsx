@@ -1,11 +1,13 @@
 import React from 'react';
 import Footer from "../Components/Footer"
+import ParallaxScroll from "../Components/Parallax/ParallaxScroll"
+
 
 
 const Models = () => {
     return(
         <div>
-            <h1>Models Page</h1>
+            <ParallaxScroll></ParallaxScroll>
             <Footer/>
         </div>
     )

@@ -1,0 +1,149 @@
+body {
+  background-color: black;
+}
+.parallax {
+  height: 900px;
+}
+
+.modelTitle {
+  background: #fff;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  opacity: 0.7;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+.mobileTitle {
+  display: none;
+}
+.container {
+  height: 800px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.image img {
+  margin-top: 0px;
+  height: 398px;
+  width: 100%;
+}
+
+.buy {
+  background-color: black;
+  height: 380px;
+  padding: 10px;
+}
+
+.description {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  /* width: 95%; */
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 75px;
+}
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #e31937;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+.info {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  width: 95%;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 125px;
+}
+
+.bottom-buy {
+  background-color: black;
+  height: 398px;
+}
+.top-image img {
+  margin: 0px;
+  height: 399px;
+  width: 100%;
+}
+
+@media screen and (max-width: 805px) {
+  .parallaxImage {
+    width: 100%;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .info {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .parallaxImage {
+    display: none;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobileTitle {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    background: #fff;
+    left: 50%;
+    top: 30%;
+    position: relative;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    opacity: 0.9;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .container {
+    height: 1200px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .info {
+    font-size: 10px;
+    display: none;
+  }
+  button {
+    width: 125px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #e31937;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px white;
+    font-weight: bold;
+    font-size: 10px;
+  }
+}
