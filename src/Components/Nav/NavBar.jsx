@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import '../../Styling/navbar.css';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import * as SiIcons from 'react-icons/si';
 import {SidebarData} from './SidebarData';
 import {IconContext} from 'react-icons';
 
@@ -18,6 +19,9 @@ const NavBar = () => {
           <Link to="#" className='menu-bars'>
             <FaIcons.FaBars onClick={showSidebar}/>
           </Link>
+
+          <SiIcons.SiTesla className="tesla-logo"/>
+
         </div>
         <nav className={sidebar ? 'nav-menu active': 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
