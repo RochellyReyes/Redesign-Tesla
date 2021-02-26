@@ -16,6 +16,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
+
   justify-content: center;
 }
 
@@ -59,11 +60,13 @@ body {
   font-size: 16px;
   border-radius: 50px;
 }
+
 .box a:hover {
   color: #e31937;
   border: 2px solid #e31937;
   background: white;
 }
+
 
 .wrapper .box:before {
   content: " ";
@@ -129,3 +132,4 @@ body {
     padding: 5px 25px;
   }
 }
+
