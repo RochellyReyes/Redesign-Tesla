@@ -64,6 +64,7 @@ body {
   border: 2px solid #e31937;
   background: white;
 }
+
 .wrapper .box:before {
   content: " ";
   background: rgba(227, 25, 55, 0.3);

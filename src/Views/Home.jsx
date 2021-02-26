@@ -13,6 +13,7 @@ const Home = () => {
                     <div className="box">
                         <h2>Vehicles</h2>
                         <p>High performance, luxury vehicles with high tech interiors. Travel farther on a single charge than any other electric vehicle and keep going with access to 20,000+ Superchargers globally.</p>
+
                         <NavLink exact={true} to='/models'>See Our Cars</NavLink>
                     </div>
                     <div className="box">
