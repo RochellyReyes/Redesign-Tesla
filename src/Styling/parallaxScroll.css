@@ -28,7 +28,8 @@ body {
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
-.image img {
+.image img,
+.mobile-image img {
   margin-top: 0px;
   height: 398px;
   width: 100%;
@@ -40,7 +41,7 @@ body {
   padding: 10px;
 }
 
-.description {
+.cars-description {
   text-align: center;
   color: white;
   font-size: 25px;
@@ -67,7 +68,7 @@ button:active {
   transform: translateY(4px);
 }
 
-.info {
+.cars-info {
   text-align: center;
   color: white;
   font-size: 25px;
@@ -78,24 +79,14 @@ button:active {
   margin-top: 125px;
 }
 
-.bottom-buy {
-  background-color: black;
-  height: 398px;
-}
-.top-image img {
-  margin: 0px;
-  height: 399px;
-  width: 100%;
-}
-
 @media screen and (max-width: 805px) {
   .parallaxImage {
     width: 100%;
   }
-  .description {
+  .cars-description {
     font-size: 20px;
   }
-  .info {
+  .cars-info {
     font-size: 20px;
   }
 }
@@ -108,13 +99,20 @@ button:active {
     display: flex;
     flex-direction: column;
   }
+  .image img {
+    height: 400px;
+  }
+  .extra,
+  .mobile-image {
+    display: none;
+  }
   .mobileTitle {
     display: flex;
     width: 200px;
     justify-content: center;
     background: #fff;
     left: 50%;
-    top: 30%;
+    top: 45%;
     position: relative;
     padding: 20px;
     transform: translate(-50%, -50%);
@@ -124,14 +122,13 @@ button:active {
     border-radius: 15px;
     text-align: center;
   }
-  .container {
-    height: 1200px;
+  .buy {
+    height: 200px;
   }
-  .description {
-    font-size: 12px;
+  .cars-description {
+    font-size: 20px;
   }
-  .info {
-    font-size: 10px;
+  .cars-info {
     display: none;
   }
   button {
