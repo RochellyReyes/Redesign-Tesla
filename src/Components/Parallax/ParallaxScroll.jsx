@@ -2,12 +2,12 @@ import React from 'react';
 import {Parallax} from 'react-parallax';
 import "../../Styling/parallaxScroll.css"
 
-
 const ParallaxScroll = () =>{
     return(
         <div>
             {/* Model S and Info */}
             <Parallax bgImage={"../img/sliderImages/MS-Performance.jpg"} strength={500} className="parallaxImage">
+
 
                 <div className="parallax">
                      <div className="modelTitle">Model S</div>
@@ -28,6 +28,7 @@ const ParallaxScroll = () =>{
                     <p className="cars-info">With the lowest drag coefficient on Earth and unmatched efficiency, Model S is built for speed and range. Together with a wider body and chassis, these elements help you go down the straight or around corners quicker than ever.</p>
                 </div>
                 <div className="mobile-image" id="mobile-display">
+
 
                 <img src="../img/sliderImages/model-s.jpg" alt="Red Model S"/>
                 </div>
@@ -84,7 +85,6 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                         <img src="../img/sliderImages/MX-Exterior.jpg" alt="White Model X Front"/>
                     </div>
-
                 </div>
             </div>
             
@@ -114,7 +114,6 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                     <img src="../img/sliderImages/AWD_hero@2.jpg" alt="Red Model X"/>
                 </div>
-
                 </div>
             </div>
         </div>

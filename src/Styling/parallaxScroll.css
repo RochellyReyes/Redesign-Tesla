@@ -31,7 +31,6 @@ body {
 
 .image img,
 .mobile-image img {
-
   margin-top: 0px;
   height: 398px;
   width: 100%;
@@ -81,16 +80,15 @@ button:active {
   margin-top: 125px;
 }
 
-
 @media screen and (max-width: 805px) {
   .parallaxImage {
     width: 100%;
   }
+
   .cars-description {
     font-size: 20px;
   }
   .cars-info {
-
     font-size: 20px;
   }
 }
@@ -128,6 +126,7 @@ button:active {
     border-radius: 15px;
     text-align: center;
   }
+
   .buy {
     height: 200px;
   }
@@ -135,7 +134,6 @@ button:active {
     font-size: 20px;
   }
   .cars-info {
-
     display: none;
   }
   button {
