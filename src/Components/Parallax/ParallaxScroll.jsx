@@ -3,12 +3,12 @@ import {Parallax} from 'react-parallax';
 import "../../Styling/parallaxScroll.css"
 
 
-
 const ParallaxScroll = () =>{
     return(
         <div>
             {/* Model S and Info */}
             <Parallax bgImage={"../img/sliderImages/MS-Performance.jpg"} strength={500} className="parallaxImage">
+
                 <div className="parallax">
                      <div className="modelTitle">Model S</div>
                 </div>
@@ -20,6 +20,7 @@ const ParallaxScroll = () =>{
                         <img src="../img/sliderImages/MS-Range-Hero-Desktop.jpg" alt="Blue Model S"/>
                     </div>
                     <div className="buy">
+
                         <p className="cars-description">With the longest range and quickest acceleration of any electric vehicle in production, Model S Plaid is the highest performing sedan ever built. Both Long Range and Plaid powertrains, with updated battery architecture, are capable of back-to-back, consistent 1/4 mile runs.</p>
                         <button className="order-now">Order Now</button>
                     </div>
@@ -27,6 +28,7 @@ const ParallaxScroll = () =>{
                     <p className="cars-info">With the lowest drag coefficient on Earth and unmatched efficiency, Model S is built for speed and range. Together with a wider body and chassis, these elements help you go down the straight or around corners quicker than ever.</p>
                 </div>
                 <div className="mobile-image" id="mobile-display">
+
                 <img src="../img/sliderImages/model-s.jpg" alt="Red Model S"/>
                 </div>
                 </div>
@@ -55,6 +57,7 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                         <img src="../img/sliderImages/model3-blk.jpg.png" alt="Blue Model S"/>
                     </div>
+
                 </div>
             </div>
 
@@ -81,6 +84,7 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                         <img src="../img/sliderImages/MX-Exterior.jpg" alt="White Model X Front"/>
                     </div>
+
                 </div>
             </div>
             
@@ -110,6 +114,7 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                     <img src="../img/sliderImages/AWD_hero@2.jpg" alt="Red Model X"/>
                 </div>
+
                 </div>
             </div>
         </div>

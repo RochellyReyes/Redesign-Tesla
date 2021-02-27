@@ -19,6 +19,12 @@
   background: none;
 }
 
+.tesla-logo {
+  font-size: 2.3rem;
+  margin-right: 2rem;
+  background: none;
+}
+
 .nav-menu {
   background-color: whitesmoke;
   width: 250px;
@@ -33,8 +39,9 @@
 }
 
 .nav-menu.active {
-  left: 0;
-  transition: 350ms;
+    left: 0;
+    transition: 350ms;
+    z-index: 2;
 }
 
 .nav-text {

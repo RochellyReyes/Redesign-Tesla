@@ -28,8 +28,10 @@ body {
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
+
 .image img,
 .mobile-image img {
+
   margin-top: 0px;
   height: 398px;
   width: 100%;
@@ -79,6 +81,7 @@ button:active {
   margin-top: 125px;
 }
 
+
 @media screen and (max-width: 805px) {
   .parallaxImage {
     width: 100%;
@@ -87,6 +90,7 @@ button:active {
     font-size: 20px;
   }
   .cars-info {
+
     font-size: 20px;
   }
 }
@@ -106,6 +110,7 @@ button:active {
   .mobile-image {
     display: none;
   }
+
   .mobileTitle {
     display: flex;
     width: 200px;
@@ -113,6 +118,7 @@ button:active {
     background: #fff;
     left: 50%;
     top: 45%;
+
     position: relative;
     padding: 20px;
     transform: translate(-50%, -50%);
@@ -129,6 +135,7 @@ button:active {
     font-size: 20px;
   }
   .cars-info {
+
     display: none;
   }
   button {
