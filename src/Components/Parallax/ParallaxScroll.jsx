@@ -5,7 +5,7 @@ import "../../Styling/parallaxScroll.css"
 
 const ParallaxScroll = () =>{
     return(
-        <div>
+        <div className="models-wrapper">
             {/* Model S and Info */}
             <Parallax bgImage={"../img/sliderImages/MS-Performance.jpg"} strength={500} className="parallaxImage">
 
@@ -13,10 +13,10 @@ const ParallaxScroll = () =>{
                      <div className="modelTitle">Model S</div>
                 </div>
             </Parallax>
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model S</div>
-                <div className="grid">
-                    <div className="image">
+                <div className="model-grid">
+                    <div className="model-image">
                         <img src="../img/sliderImages/MS-Range-Hero-Desktop.jpg" alt="Blue Model S"/>
                     </div>
                     <div className="buy">
@@ -41,10 +41,10 @@ const ParallaxScroll = () =>{
                 </div>
             </Parallax>
 
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model 3</div>
-                <div className="grid">
-                <div className="image" >
+                <div className="model-grid">
+                <div className="model-image" >
                     <img src="../img/sliderImages/model-3.jpg" alt="Red Model 3"/>
                     </div>
                     <div className="buy">
@@ -68,10 +68,10 @@ const ParallaxScroll = () =>{
                 </div>
             </Parallax>
 
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model X</div>
-                <div className="grid">
-                <div className="image">
+                <div className="model-grid">
+                <div className="model-image">
                         <img src="../img/sliderImages/MX-gray.jpg" alt="Gray Model X"/>
                     </div>
                     <div className="buy">
@@ -96,10 +96,10 @@ const ParallaxScroll = () =>{
                 </div>
             </Parallax>
 
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model Y</div>
-                <div className="grid">
-                <div className="image">
+                <div className="model-grid">
+                <div className="model-image">
                         <img src="../img/sliderImages/blue-my.jpg" alt="Blue Model Y"/>
                 </div>
                 <div className="buy">

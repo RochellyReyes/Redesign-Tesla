@@ -1,6 +1,8 @@
+
 body {
   background-color: black;
 }
+
 .parallax {
   height: 900px;
 }
@@ -20,16 +22,16 @@ body {
 .mobileTitle {
   display: none;
 }
-.container {
+.model-container {
   height: 800px;
 }
-.grid {
+.model-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
 }
 
-.image img,
+.model-image img,
 .mobile-image img {
 
   margin-top: 0px;
@@ -81,6 +83,18 @@ button:active {
   margin-top: 125px;
 }
 
+@media screen and (max-width: 1024px) {
+  /* .parallaxImage {
+    width: 100%;
+  }*/
+  .cars-description {
+    font-size: 19.75px;
+  }
+  .cars-info {
+
+    font-size: 19.75px;
+  } 
+}
 
 @media screen and (max-width: 805px) {
   .parallaxImage {
@@ -99,11 +113,11 @@ button:active {
   .parallaxImage {
     display: none;
   }
-  .grid {
+  .model-grid {
     display: flex;
     flex-direction: column;
   }
-  .image img {
+  .model-image img {
     height: 400px;
   }
   .extra,
