@@ -32,7 +32,7 @@ function Contact() {
             firstName: input.firstName,
             lastName: input.lastName,
             email: input.email,
-            message: input.message,
+            message: input.value,
         }
         
         axios.post('http://localhost:3001/send', newUser)
@@ -62,7 +62,7 @@ function Contact() {
                     <input type="text" name="email" placeholder="Ex:johndoe@email.com" onChange={handleChange} value={input.email}/>
 
                     <label className="text">Mesage</label>
-                    <textarea name="subject" onChange={handleChange} value={input.message}></textarea>
+                    <textarea name="subject" onChange={handleChange} value={input.value}></textarea>
 
                     <input type="submit" value="Submit" onClick={handleClick}/>
                 </form>
