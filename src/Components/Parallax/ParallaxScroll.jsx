@@ -118,8 +118,17 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                     <img src="../img/sliderImages/AWD_hero@2.jpg" alt="Red Model X"/>
                 </div>
-
                 </div>
+            </div>
+
+            <div>
+                <iframe 
+                    src="https://map.openchargemap.io/?mode=embedded" 
+                    allow="geolocation" 
+                    frameborder="0" 
+                    width="100%" 
+                    height="500px">
+                    </iframe>
             </div>
         </div>
     )
