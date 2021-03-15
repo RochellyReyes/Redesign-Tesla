@@ -1,7 +1,7 @@
-
 body {
   background-color: black;
 }
+
 
 .parallax {
   height: 900px;
@@ -100,6 +100,7 @@ button:active {
   .parallaxImage {
     width: 100%;
   }
+
   .cars-description {
     font-size: 20px;
   }
@@ -118,6 +119,7 @@ button:active {
     flex-direction: column;
   }
   .model-image img {
+
     height: 400px;
   }
   .extra,
@@ -142,6 +144,7 @@ button:active {
     border-radius: 15px;
     text-align: center;
   }
+
   .buy {
     height: 200px;
   }

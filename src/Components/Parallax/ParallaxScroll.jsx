@@ -9,6 +9,7 @@ const ParallaxScroll = () =>{
             {/* Model S and Info */}
             <Parallax bgImage={"../img/sliderImages/MS-Performance.jpg"} strength={500} className="parallaxImage">
 
+
                 <div className="parallax">
                      <div className="modelTitle">Model S</div>
                 </div>
@@ -17,6 +18,7 @@ const ParallaxScroll = () =>{
             <div className="mobileTitle">Model S</div>
                 <div className="model-grid">
                     <div className="model-image">
+
                         <img src="../img/sliderImages/MS-Range-Hero-Desktop.jpg" alt="Blue Model S"/>
                     </div>
                     <div className="buy">
@@ -45,6 +47,7 @@ const ParallaxScroll = () =>{
             <div className="mobileTitle">Model 3</div>
                 <div className="model-grid">
                 <div className="model-image" >
+
                     <img src="../img/sliderImages/model-3.jpg" alt="Red Model 3"/>
                     </div>
                     <div className="buy">
@@ -72,6 +75,7 @@ const ParallaxScroll = () =>{
             <div className="mobileTitle">Model X</div>
                 <div className="model-grid">
                 <div className="model-image">
+
                         <img src="../img/sliderImages/MX-gray.jpg" alt="Gray Model X"/>
                     </div>
                     <div className="buy">
@@ -100,7 +104,7 @@ const ParallaxScroll = () =>{
             <div className="mobileTitle">Model Y</div>
                 <div className="model-grid">
                 <div className="model-image">
-                        <img src="../img/sliderImages/blue-my.jpg" alt="Blue Model Y"/>
+                      <img src="../img/sliderImages/blue-my.jpg" alt="Blue Model Y"/>
                 </div>
                 <div className="buy">
                         <p className="cars-description">Model Y is fully electric, so you never need to visit a gas station again. If you charge overnight at home, you can wake up to a full battery every morning. </p>
