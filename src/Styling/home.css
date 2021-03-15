@@ -72,13 +72,6 @@ body {
 }
 
 
-.box a:hover {
-  color: #e31937;
-  border: 2px solid #e31937;
-  background: white;
-}
-
-
 .wrapper .box:before {
   content: " ";
   background: rgba(227, 25, 55, 0.3);

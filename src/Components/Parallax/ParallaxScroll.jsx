@@ -2,9 +2,10 @@ import React from 'react';
 import {Parallax} from 'react-parallax';
 import "../../Styling/parallaxScroll.css"
 
+
 const ParallaxScroll = () =>{
     return(
-        <div>
+        <div className="models-wrapper">
             {/* Model S and Info */}
             <Parallax bgImage={"../img/sliderImages/MS-Performance.jpg"} strength={500} className="parallaxImage">
 
@@ -13,10 +14,11 @@ const ParallaxScroll = () =>{
                      <div className="modelTitle">Model S</div>
                 </div>
             </Parallax>
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model S</div>
-                <div className="grid">
-                    <div className="image">
+                <div className="model-grid">
+                    <div className="model-image">
+
                         <img src="../img/sliderImages/MS-Range-Hero-Desktop.jpg" alt="Blue Model S"/>
                     </div>
                     <div className="buy">
@@ -28,7 +30,6 @@ const ParallaxScroll = () =>{
                     <p className="cars-info">With the lowest drag coefficient on Earth and unmatched efficiency, Model S is built for speed and range. Together with a wider body and chassis, these elements help you go down the straight or around corners quicker than ever.</p>
                 </div>
                 <div className="mobile-image" id="mobile-display">
-
 
                 <img src="../img/sliderImages/model-s.jpg" alt="Red Model S"/>
                 </div>
@@ -42,10 +43,11 @@ const ParallaxScroll = () =>{
                 </div>
             </Parallax>
 
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model 3</div>
-                <div className="grid">
-                <div className="image" >
+                <div className="model-grid">
+                <div className="model-image" >
+
                     <img src="../img/sliderImages/model-3.jpg" alt="Red Model 3"/>
                     </div>
                     <div className="buy">
@@ -69,10 +71,11 @@ const ParallaxScroll = () =>{
                 </div>
             </Parallax>
 
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model X</div>
-                <div className="grid">
-                <div className="image">
+                <div className="model-grid">
+                <div className="model-image">
+
                         <img src="../img/sliderImages/MX-gray.jpg" alt="Gray Model X"/>
                     </div>
                     <div className="buy">
@@ -85,6 +88,7 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                         <img src="../img/sliderImages/MX-Exterior.jpg" alt="White Model X Front"/>
                     </div>
+
                 </div>
             </div>
             
@@ -96,11 +100,11 @@ const ParallaxScroll = () =>{
                 </div>
             </Parallax>
 
-            <div className="container">
+            <div className="model-container">
             <div className="mobileTitle">Model Y</div>
-                <div className="grid">
-                <div className="image">
-                        <img src="../img/sliderImages/blue-my.jpg" alt="Blue Model Y"/>
+                <div className="model-grid">
+                <div className="model-image">
+                      <img src="../img/sliderImages/blue-my.jpg" alt="Blue Model Y"/>
                 </div>
                 <div className="buy">
                         <p className="cars-description">Model Y is fully electric, so you never need to visit a gas station again. If you charge overnight at home, you can wake up to a full battery every morning. </p>
@@ -114,6 +118,7 @@ const ParallaxScroll = () =>{
                     <div className="mobile-image" id="mobile-display">
                     <img src="../img/sliderImages/AWD_hero@2.jpg" alt="Red Model X"/>
                 </div>
+
                 </div>
             </div>
         </div>
